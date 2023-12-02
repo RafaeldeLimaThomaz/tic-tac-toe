@@ -17,10 +17,10 @@ const RedLine = ({ startX, startY, endX, endY }) => {
     top: `${startY}px`,
     left: `${startX}px`,
     width: `${length}px`,
-    height: '2px', // Adjust the thickness of the line
+    height: '2px', 
     background: 'red',
     transform: `rotate(${angle}deg)`,
-    transformOrigin: '0% 50%', // Rotate around the start point
+    transformOrigin: '0% 50%', 
   };
 
   return <div className="red-line" style={lineStyle}></div>;
